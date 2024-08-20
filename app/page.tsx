@@ -151,8 +151,7 @@ function Navbar() {
           <>
             <Link href="/sign-in">
               <button
-                className={` max-sm:w-full text-sm border border-sky-500 text-white bg-sky-500 
- p-[8px] px-6 rounded-md `}
+                className={` max-sm:w-full text-sm border border-sky-500 text-white bg-sky-500 p-[8px] px-6 rounded-md `}
               >
                 Sign In
               </button>
@@ -160,8 +159,7 @@ function Navbar() {
 
             <Link href="/sign-up">
               <button
-                className={` max-sm:w-full text-sm border border-sky-500 text-sky-500 
-hover:bg-sky-500 hover:text-white p-[8px] px-6 rounded-md `}
+                className={` max-sm:w-full text-sm border border-sky-500 text-sky-500 hover:bg-sky-500 hover:text-white p-[8px] px-6 rounded-md `}
               >
                 Sign Up
               </button>
@@ -170,8 +168,7 @@ hover:bg-sky-500 hover:text-white p-[8px] px-6 rounded-md `}
         ) : (
           <Link href="/dashboard">
             <button
-              className={` max-sm:w-full text-sm border bg-sky-500 text-white
-hover:bg-sky-600 hover:text-white p-[8px] px-6 rounded-md `}
+              className={` max-sm:w-full text-sm border bg-sky-500 text-white hover:bg-sky-600 hover:text-white p-[8px] px-6 rounded-md `}
             >
               Dashboard
             </button>
